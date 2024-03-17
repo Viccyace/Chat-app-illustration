@@ -1,0 +1,267 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(270, 20%, 96%);
+}
+
+#aside-border {
+  height: 37em;
+  width: 25em;
+  border-radius: 0em 0em 14em 9em;
+  background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  float: left;
+}
+#mobile-frame {
+  border: 0.9em solid white;
+  border-radius: 2em;
+  height: 32em;
+  width: 16em;
+  background-color: hsl(270, 20%, 96%);
+  float: left;
+  margin-top: 3em;
+  margin-left: -5em;
+  box-shadow: 2em 2em 1em hsla(0, 0%, 1%, 0.05);
+}
+
+.speaker-design {
+  width: 10em;
+  height: 1.5em;
+  border-radius: 5em;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  margin-left: 3em;
+  margin-top: -0.7em;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+  width: 100%;
+  border-radius: 1em 1em 0.4em 0.4em;
+  background: linear-gradient(
+    To left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+}
+
+.mobile-header img {
+  max-width: 2em;
+  border-radius: 1.5em;
+  border: 0.1em solid white;
+  margin-top: 0.5em;
+}
+
+.mobile-header h1 {
+  font-size: 1rem;
+  color: white;
+  margin-right: 3em;
+}
+.mobile-header p {
+  font-size: 0.7rem;
+  color: hsl(276, 100%, 81%);
+  font-weight: 200;
+}
+
+.entity {
+  color: white;
+  font-size: 1em;
+  margin-left: 1em;
+  font-weight: 600;
+}
+
+.vertical-entity {
+  color: white;
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.left-chat,
+.left-chat-2,
+.left-chat-3 {
+  width: 9em;
+  border: 1em;
+  background-color: hsl(270, 22%, 93%);
+  margin-top: 0.5em;
+  margin-left: 0.6em;
+  padding: 0.5em;
+  border-radius: 1em 1em 1em 0em;
+}
+
+.left-chat p,
+.left-chat-2 p,
+.left-chat-3 p {
+  width: 15em;
+  font-size: 0.6em;
+  color: hsl(276, 55%, 52%);
+}
+
+.chat-img {
+  display: flex;
+  justify-content: end;
+  margin-right: 0.15em;
+  margin-top: 0.9em;
+}
+
+.chat-img img {
+  float: left;
+  max-width: 3em;
+  border-radius: 0.8em;
+  margin-right: 0.4em;
+}
+
+.right-chat,
+.right-chat-2 {
+  width: 14em;
+  border: 1em;
+  font-size: 0.6em;
+  color: hsl(271, 15%, 43%);
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 0.5em;
+  margin-right: 0.6em;
+  padding: 0.9em;
+  border-radius: 1em 1em 0em 1em;
+}
+.right-chat-2 {
+  width: 9em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 0.15em;
+  margin-top: 0.5em;
+}
+#price-chat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6em;
+  width: 19em;
+  border: 1em;
+  background: linear-gradient(
+    To right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  color: white;
+  margin-top: 0.5em;
+  margin-left: 0.6em;
+  padding: 1em;
+  border-radius: 1em 1em 1em 0em;
+}
+
+.chat-paragraph {
+  margin-right: 5em;
+}
+.chat-paragraph0 {
+  margin-right: 7em;
+}
+.chat-paragraph-1 {
+  margin-right: 2em;
+  font-weight: 600;
+}
+input[type="text"] {
+  padding: 1em;
+  border-radius: 2em;
+  border: none;
+  width: 16em;
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+input[type="submit"] {
+  font-size: 1em;
+  font-weight: 700;
+  width: 2em;
+  float: right;
+  padding: 0.4em;
+  border: none;
+  border-radius: 5em;
+  background-color: hsl(271, 36%, 24%);
+  color: white;
+  margin-top: -2.3em;
+  z-index: 2;
+  position: relative;
+  margin-right: 1.1em;
+}
+::placeholder {
+  color: hsl(206, 6%, 79%);
+}
+input[type="radio"] {
+  border-color: hsl(289, 100%, 72%);
+}
+
+.booking {
+  float: right;
+  margin-top: 14em;
+  margin-right: 10em;
+}
+
+.booking h2 {
+  margin-bottom: 0.7em;
+  font-size: 2em;
+  color: hsl(271, 36%, 24%);
+}
+.booking p {
+  font-size: 1em;
+  line-height: 2em;
+  width: 26.5em;
+  font-weight: 200;
+  color: hsl(270, 7%, 64%);
+}
+
+.aside-opacity {
+  height: 37em;
+  width: 25em;
+  border-radius: 14em 10em 0em 0em;
+  background-color: hsl(270, 7%, 64%);
+  float: right;
+  margin-top: -19em;
+  margin-right: -7em;
+  opacity: 0.06;
+}
+
+/* mobile view*/
+@media only screen and (max-width: 695px) {
+  body {
+    width: 375px;
+  }
+
+  #aside-border {
+    margin-left: -14em;
+  }
+
+  #mobile-frame {
+    margin-top: 7em;
+    margin-left: -7em;
+  }
+
+  .booking {
+    margin-top: 5em;
+    margin-right: 2em;
+    text-align: center;
+  }
+
+  .booking p {
+    width: 18em;
+  }
+
+  .aside-opacity {
+    height: 22em;
+    width: 13em;
+    border-radius: 14em 10em 0em 0em;
+    background-color: hsl(270, 7%, 64%);
+    float: right;
+    margin-top: -19em;
+    margin-right: -1em;
+    opacity: 0.03;
+  }
+}
